@@ -10,7 +10,7 @@ The `loopback-component-model-diagram` requires loopback version >= 2.
 ## Installation
 
 ```sh
-$ npm install --save loopback-component-model-diagram
+$ npm install --save git+https://git@github.com/bshrram/loopback-component-model-diagram
 ```
 
 ## Options
@@ -24,6 +24,10 @@ You can set some options in the `component-config.json` file.
 
 `directives`: **Object**
 > Sets the default directives to the generated source code. See [directives][nomnoml-directives] of the [nomnoml] package.
+
+`showEmbeddedRelations`: **boolean**
+
+
 
 
 
